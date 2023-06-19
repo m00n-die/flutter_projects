@@ -31,6 +31,9 @@ class HomePage extends StatelessWidget {
           children: [
             const SizedBox(height: 100),
             ElevatedButton(
+                style: const ButtonStyle(
+                  backgroundColor: MaterialStatePropertyAll<Color>(Colors.blue),
+                ),
                 onPressed: () {
                   Navigator.push(
                       context,
